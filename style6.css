@@ -1,0 +1,986 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.rico1{
+    background-color: black;
+    height: 500vh; 
+} 
+
+.head-1{
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+
+
+}
+.rico2{
+    height: 80px;
+    width: 80px;
+    margin-top: 50px;
+}
+
+
+.one{
+    color: white;
+    display: flex;
+    margin-top: 70px;
+    margin-right: 100px;
+    font-size: 22px;
+
+}
+.one ul{
+    display: flex;
+}
+.one ul li{
+    list-style: none;
+    margin-right: 1.5rem;
+}
+
+
+.roll1{
+    display: grid;
+    background-color: rgb(41, 38, 38);
+    height: 2500px;
+    width: 1250px;
+    margin: 100px;
+    margin-left: 50px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    gap: 1rem;
+}
+.image-1{
+    height: 250px;
+    width: 500px;
+}
+.first{
+    background-image: url(/building1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    filter: blur(5px);
+    
+
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;  
+}
+.a{
+    position: relative;
+    line-height: 2;  
+}
+.first:hover{
+    filter: blur(0);
+}
+.a::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.a::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.a:hover::before, .a:hover::after{
+    width: 100%;
+}
+.b{
+    position: relative;
+    line-height: 2;
+    
+}
+.b::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.b::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.b:hover::before, .b:hover::after{
+    width: 100%;
+}
+
+
+.second{
+    background-image: url(/building2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  filter: blur(5px);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.second:hover{
+    filter: blur(0);
+}
+
+.third{
+    background-image: url(/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    filter: blur(5px);
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.c{
+    position: relative;
+    line-height: 2;  
+}
+.third:hover{
+    filter: blur(0);
+}
+.c::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.c::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.c:hover::before, .c:hover::after{
+    width: 100%;
+}
+.fourth{
+    background-image: url(/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start:3 ;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    filter: blur(5px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.d{
+    position: relative;
+    line-height: 2;  
+}
+.fourth:hover{
+    filter: blur(0);
+}
+.d::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.d::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.d:hover::before, .d:hover::after{
+    width: 100%;
+}
+.fifth{
+    background-image: url(/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    filter: blur(5px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.e{
+    position: relative;
+    line-height: 2;  
+}
+.fifth:hover{
+    filter: blur(0);
+}
+.e::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.e::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.e:hover::before, .e:hover::after{
+    width: 100%;
+}
+.sixth{
+    background-image: url(/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    filter: blur(5px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.f{
+    position: relative;
+    line-height: 2;  
+}
+.sixth:hover{
+    filter: blur(0);
+}
+.f::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.f::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.f:hover::before, .f:hover::after{
+    width: 100%;
+}
+.seven{
+    background-image: url(/picture\ 1.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    filter: blur(5px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.seven{
+    position: relative;
+    line-height: 2;  
+}
+.seven:hover{
+    filter: blur(0);
+}
+.g::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.g::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.g:hover::before, .g:hover::after{
+    width: 100%;
+}
+.eight{
+    background-image: url(/picture\ 2.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    filter: blur(5px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.h{
+    position: relative;
+    line-height: 2;  
+}
+.eight:hover{
+    filter: blur(0);
+}
+.h::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.h::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.h:hover::before, .h:hover::after{
+    width: 100%;
+}
+.nine{
+    background-image: url(/picture\ 3.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    filter: blur(5px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.i{
+    position: relative;
+    line-height: 2;  
+}
+.nine:hover{
+    filter: blur(0);
+}
+.i::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.i::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.i:hover::before, .i:hover::after{
+    width: 100%;
+}
+.ten{
+    background-image: url(/picture\ 4.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    filter: blur(5px);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.j{
+    position: relative;
+    line-height: 2;  
+}
+.ten:hover{
+    filter: blur(0);
+}
+.j::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.j::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.j:hover::before, .j:hover::after{
+    width: 100%;
+}
+.eleven{
+    background-image: url(/picture\ 5.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    filter: blur(5px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.k{
+    position: relative;
+    line-height: 2;  
+}
+.eleven:hover{
+    filter: blur(0);
+}
+.k::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.k::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.k:hover::before, .k:hover::after{
+    width: 100%;
+}
+.twelve{
+    background-image: url(/picture\ 6.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    filter: blur(5px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.l{
+    position: relative;
+    line-height: 2;  
+}
+.twelve:hover{
+    filter: blur(0);
+}
+.l::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.l::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.l:hover::before, .l:hover::after{
+    width: 100%;
+}
+.thirteen{
+        background-image: url(/picture\ 7.jfif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-row-start: 9;
+        grid-row-end: 11;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        filter: blur(5px);
+
+     display: flex;   
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.m{
+    position: relative;
+    line-height: 2;  
+}
+.thirteen:hover{
+    filter: blur(0);
+}
+.m::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.m::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.m:hover::before, .m:hover::after{
+    width: 100%;
+}
+.fourteen{
+    background-image: url(/picture\ 8.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    filter: blur(5px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.n{
+    position: relative;
+    line-height: 2;  
+}
+.fourteen:hover{
+    filter: blur(0);
+}
+.n::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.n::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.n:hover::before, .n:hover::after{
+    width: 100%;
+}
+.fifteen{
+    background-image: url(/picture\ 9.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    filter: blur(5px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.o{
+    position: relative;
+    line-height: 2;  
+}
+.fifteen:hover{
+    filter: blur(0);
+}
+.o::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.o::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.o:hover::before, .o:hover::after{
+    width: 100%;
+}
+.sixteen{
+    background-image: url(/picture\ 10.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 11;
+    grid-row-end: 13;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    filter: blur(5px);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.p{
+    position: relative;
+    line-height: 2;  
+}
+.sixteen:hover{
+    filter: blur(0);
+}
+.p::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.p::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.p:hover::before, .p:hover::after{
+    width: 100%;
+}
+.seventeen{
+    background-image: url(/picture\ 11.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 11;
+    grid-row-end: 12;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    filter: blur(5px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.q{
+    position: relative;
+    line-height: 2;  
+}
+.seventeen:hover{
+    filter: blur(0);
+}
+.q::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.q::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.q:hover::before, .q:hover::after{
+    width: 100%;
+}
+.eighteen{
+    background-image: url(/picture\ 12.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    filter: blur(5px);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.r{
+    position: relative;
+    line-height: 2;  
+}
+.eighteen:hover{
+    filter: blur(0);
+}
+.r::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.r::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.r:hover::before, .r:hover::after{
+    width: 100%;
+}
+.ninteen{
+    background-image: url(/picture\ 13.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 11;
+    grid-row-end: 12;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    filter: blur(5px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.s{
+    position: relative;
+    line-height: 2;  
+}
+.ninteen:hover{
+    filter: blur(0);
+}
+.s::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.s::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.s:hover::before, .s:hover::after{
+    width: 100%;
+}
+.twenty{
+    background-image: url(/picture\ 14.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-row-start: 12;
+    grid-row-end: 13;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    filter: blur(5px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.t{
+    position: relative;
+    line-height: 2;  
+}
+.twenty:hover{
+    filter: blur(0);
+}
+.t::before{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+.t::after{
+    content:"";
+    width: 0px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: 1s;
+}
+.t:hover::before, .t:hover::after{
+    width: 100%;
+}
+.logo-1{
+    margin-left: 630px;
+}
+.logo-2{
+     height: 90px;
+     width: 120px;
+}
+footer img{
+    height: 90px;
+    width: 120px;
+}
+footer{
+    padding-top: 0;
+    text-align: center;
+    background-color: black;
+    height: 60vh;
+    font-size: 15px;
+    width: 100%;
+}
+.drop-2{
+    color: white;
+}
+.drop{
+    color: rgb(179, 165, 165);
+}

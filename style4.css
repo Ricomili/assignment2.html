@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.rico{
+    height: 100vh;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    display: grid;
+}
+.rico2{
+     padding: 50px;padding-top: 50px;
+}
+.rico3{
+    width: 160px;height: 110px;
+    padding-left: 120px;
+    padding-top: 120px;
+}
+.king{
+    width: 338px;
+    background-color: rgb(32, 161, 32);
+    border: 1px;
+    
+}
+.king2{
+    width: 325px;
+    padding-left: 10px;
+}
+.fa-envelope{
+    position: absolute;
+    left: 26.5%;
+    top: 52%;
+}
+.fa-lock{
+    position: absolute;
+left: 26.5%;
+top: 62%;
+
+}
+.king3{
+    width: 325px;
+
+    padding-left: 10px;
+}

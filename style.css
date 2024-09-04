@@ -1,0 +1,57 @@
+/* h1{
+   color: red;
+   font-size: 1rem;
+}
+
+
+@media screen (max-width:600px) {
+    h1{
+        color: #0000ff;
+    }
+} */
+/* 
+section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,28rem);
+    background-color: chocolate;
+    height: 100vh;
+    gap: 1rem;
+}
+/* on phone */
+
+/* tablet */
+/* @media screen and (max-width:800px) {
+    section{
+        grid-template-columns: repeat(2,1fr);
+    }
+}  */
+.class-1{
+    height: 400px;
+    width: 400px;
+    transition: 1s;
+    background:linear-gradient(pink,black) ;
+    animation: zoom 1s infinite alternate;
+    
+}
+@keyframes zoom {
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.05);
+    }
+}
+@keyframes rotate{
+    0%,100%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+}
+@media screen and (max-width:600px) {
+    .class-1{
+        animation: rotate 1s infinite alternate;
+    }
+}

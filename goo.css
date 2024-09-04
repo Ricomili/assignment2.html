@@ -1,0 +1,39 @@
+h2{
+    color: red;
+    transition: 1s;
+}
+h2:hover{
+    color: blue;
+}
+a:active{
+    font-size: 30px;
+    color: yellow;
+}
+p{
+    position: relative;
+    width: 80px;
+    line-height: 2;
+}
+p::before{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: blue;
+    position: absolute ;
+    left: 0;
+    top: 0;
+    transition: 1s;
+}
+p::after{
+    content:"";
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 1s;
+}
+p:hover::before, p:hover::after{
+    width: 100%;
+}
